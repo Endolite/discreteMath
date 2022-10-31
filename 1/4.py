@@ -13,4 +13,4 @@ def baseConv(n, b1, b2):
   for dig in digs:
     ans += str(dig)
   return ans
-print(baseConv(1000, 10, 40))
+print(baseConv(1536, 10, 2))
