@@ -1,3 +1,5 @@
+import math as math
+
 def merge(L1, L2):
   L = []
   m1 = len(L1)
@@ -59,5 +61,5 @@ weightVals = [[95, 1, 21, 66, 59],
 eff = [[0 for i in range(len(pointVals[0]))] for j in range(len(pointVals))]
 temp = eff
 for i in range(len(eff) - 1):
-  mSort(eff[i])r
+  mSort(eff[i])
 maxWeight = [91, 87, 109, 88, 64]

@@ -1,3 +1,4 @@
+# Returns ((n)_b1)_b2
 def baseConv(n, b1, b2):
   n10 = int(str(n), base = b1)
   digs = []
@@ -13,4 +14,4 @@ def baseConv(n, b1, b2):
   for dig in digs:
     ans += str(dig)
   return ans
-print(baseConv(1536, 10, 2))
+print(baseConv(4, 10, 2))

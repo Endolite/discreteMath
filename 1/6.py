@@ -1,3 +1,4 @@
+# Prints a Paxcal triangle of height x
 def pascal(x):
   sol = [["" for i in range(x + 1)] for j in range(x + 1)]
   for i in range(x + 1):

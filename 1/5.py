@@ -1,6 +1,7 @@
 import math
 import random
 
+# Merges 2 lists by comparing corresponding elements
 def merge(L1, L2):
   L = []
   m1 = len(L1)
@@ -28,6 +29,7 @@ def merge(L1, L2):
           c1 += 1
   return L
 
+# Sorts by merging recursively
 def mSort(L):
   if len(L) > 1:
     m = math.trunc(len(L) / 2)
